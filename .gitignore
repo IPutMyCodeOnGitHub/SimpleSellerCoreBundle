@@ -1,0 +1,6 @@
+/.web-server-pid
+/phpunit.xml
+/var/*
+/vendor/
+/.idea
+/composer.lock

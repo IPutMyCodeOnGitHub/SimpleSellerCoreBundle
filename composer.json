@@ -1,0 +1,30 @@
+{
+    "name": "simpleseller/core-bundle",
+    "description": "A core bundle of imagined e-commerce platform",
+    "type": "symfony-bundle",
+    "authors": [{
+        "name": "Nikolay Nikitin",
+        "email": "nikolay.nikitin@noveogroup.com"
+    }],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SimpleSeller\\CoreBundle\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\": "tests/" },
+        "files": [ "vendor/symfony/symfony/src/Symfony/Component/VarDumper/Resources/functions/dump.php" ]
+    },
+    "require": {
+        "php": ">=7.1",
+        "symfony/symfony": "3.4.*",
+        "doctrine/doctrine-bundle": "^1.6",
+        "doctrine/orm": "^2.5"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
+        }
+    }
+}
