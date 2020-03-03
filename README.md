@@ -16,8 +16,8 @@ Update your composer.json:
 },
 "repositories" : [{
     "type" : "vcs",
-    "url" : "https://github.com/nikolay-nikitin/SimpleSellerCoreBundle.git"
-}, ...],
+    "url" : "https://github.com/IPutMyCodeOnGitHub/SimpleSellerCoreBundle.git"
+}],
 ```
 
 Then:
